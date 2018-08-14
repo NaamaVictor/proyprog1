@@ -1,0 +1,79 @@
+<HTML>
+  <HEAD>
+    <meta charset="utf-8">
+    <TITLE>vision</TITLE>
+    <meta name="viewport" content="width=device,user-scalable=no, inicial-scale=1,maximum-scale=1,minimum-scale=1">
+  <link rel="stylesheet" href="html.css">
+    <center>
+    <style type="text/css">
+    {
+    padding:0px;
+    margin:0px;
+    }
+
+
+    .slider{
+      width: 50%;   /* tamaño general del slider*/
+      margin: auto;
+      overflow: hidden;
+     }
+     
+     .slider ul{
+      display: flex;    /* distancia general del slider*/
+      padding:0; 
+      margin-top: 10%;
+      width: 800%;
+
+      animation: cambio 8s infinite;
+      animation-direction: alternate;
+     }
+
+     .slider img{
+      width: 100%;
+     }
+
+     @keyframes cambio {
+      0% { margin-left: 0;}
+      20% { margin-left: 0;}
+
+      25%{ margin-left: -100%;}
+      45%{ margin-left: -102%;}
+
+      50%{ margin-left: -200%;}
+      70%{ margin-left: -202%;}
+/*
+      75%{ margin-left: -300%; }
+      100%{ margin-left: -302%; }*/
+     }
+      
+      * {
+  margin: 0;
+  padding: 0;
+}
+
+  body{
+   background-image: url(imagenes/nueno.jpeg);
+    }
+    </style>
+  </HEAD>
+  <BODY>
+   <font FACE="Juice ITC" SIZE=3 COLOR="black">
+   <h1 style="margin-top: 50px;">Llegar a más lugares de la república Dominicana 
+   e incluso a diferentes partes del mundo, con el mejor servicio a clientes, con
+    los juegos y artículos más nuevos y actualizados y principalmente con la mejor
+     comodidad y seguridad del mundo.</h1><br>
+   </font>
+     
+       <script src="js/scripts.js"></script>
+    <div class="slider">
+        <ul>
+            <li><img src="imagenes/pa.jpg" alt=""></li>
+            <li><img src="imagenes/juego.jpg" alt=""></li>
+            <li><img src="imagenes/l.jpg" alt=""></li>
+          </ul>
+      </div>
+
+    </BODY>
+  </HTML>
+
+  
